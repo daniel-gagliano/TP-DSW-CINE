@@ -1,0 +1,45 @@
+### Obtener todas las sucursales
+GET http://localhost:3000/api/sucursales
+
+### Obtener una sucursal 
+GET http://localhost:3000/api/sucursales/1
+
+### Agregar una sucursal
+POST http://localhost:3000/api/sucursales
+Content-Type: application/json
+
+{
+    "nro_sucursal": "2",
+    "nombre_sucursal": "HOYTS",
+    "provincia": "Santa Fe",
+    "localidad": "Rosario",
+    "direccion": "Nansen 504",
+    "telefono": "341-5236232"
+}
+
+### Modificar una sucursal en su totalidad (PUT)
+
+PUT http://localhost:3000/api/sucursales/2
+Content-Type: application/json
+
+{
+    "nro_sucursal": "2",
+    "nombre_sucursal": "HOYTS modificacion",
+    "provincia": "Entre rios",
+    "localidad": "Parana",
+    "direccion": "Calle 102",
+    "telefono": "341-5236232"
+}
+
+###Modificar una sucursal parcialmente (PATCH)
+PUT http://localhost:3000/api/sucursales/2
+Content-Type: application/json
+
+{
+    "nombre_sucursal": "HOYTS Cordoba",
+    "provincia": "Cordoba",
+    "localidad": "Carlos Paz"
+}
+
+###ELiminar una sucursal 
+DELETE http://localhost:3000/api/sucursales/2
