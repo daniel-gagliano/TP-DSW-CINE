@@ -1,16 +1,16 @@
 # TP-DSW-CINE
 Trabajo Práctico de Desarrollo de Software - Aplicación para la gestión de Entradas de Cine
--
+
 -
 Integrantes
 
-42895 - Gagliano, Daniel 
-50870 - Mendoza,  Emmanuel 
-39233 - Rohr, Claudio
+* 42895 - Gagliano, Daniel 
+* 50870 - Mendoza,  Emmanuel 
+* 39233 - Rohr, Claudio
 
-Descripción
+Descripción <br /> <br />
 La plataforma ofrece una experiencia al usuario permitiéndole explorar la cartelera, seleccionar sus películas preferidas, elegir los asientos y completar la compra en línea.
-Para los administradores proporciona las herramientas para gestionar el inventario de entradas y programar los horarios de proyección.
+Para los administradores proporciona las herramientas para gestionar el inventario de entradas y programar los horarios de proyección.<br />
 
 Primer CRUD: SUCURSAL
 
@@ -20,5 +20,5 @@ Primer CRUD: SUCURSAL
 	DELETE SUCURSAL: El admin elimina una sucursal.
 
 
-Diagrama de Entidad-Relacion
+Diagrama de Entidad-Relacion <br /> <br />
 https://drive.google.com/file/d/1lukkYYM_x9WASzTJszFzP0C0eT_pA_6D/view?usp=drive_link
