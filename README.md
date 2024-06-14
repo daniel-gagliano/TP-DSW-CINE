@@ -6,7 +6,6 @@ Comision: 304
 ## Integrantes
 
 * 42895 - Gagliano, Daniel 
-* 50870 - Mendoza,  Emmanuel 
 * 39233 - Rohr, Claudio
 
 ## Descripción 
